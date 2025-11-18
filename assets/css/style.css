@@ -1,0 +1,17 @@
+/*Con esto se hace la imagen de perfil */
+.img-icon {
+    max-width: 100px;
+}
+
+aside {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+  aside {
+    position: sticky;
+    top: 1rem;
+    overflow-y: auto;
+    margin-bottom: 3rem;
+  }
+}

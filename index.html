@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Trillo Lillo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--el navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Trillo Lillo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Sobre mi"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="row">
+      <!--Aside-->
+      <aside class="d-flex flex-column col-12 col-lg-4 aside">
+        <div class="px-5 py-5 my-2 text-center">
+          <img
+            class="rounded-circle img-cover mx-auto mb-4"
+            src="./assets/img/profile pic.png"
+            alt="auto retrato dibujado por Trillo Lillo"
+            width="125px"
+          />
+          <h4>¡Hola Mundo! 👋🏿</h4>
+          <h1 class="display-5 fw-bold text-body-emphasis">soy Trillo Lillo</h1>
+          <div class="col-lg-12">
+            <p class="lead mb-2">estudiante de programación</p>
+          </div>
+        </div>
+        <div class="card text-bg-light mb-3 m-4" id="Sobre mi">
+          <h5 class="card-header">Sobre Mi</h5>
+          <div class="card-body">
+            <p class="card-text">
+              Soy una Animadora Digital ubicada en Chile 🇨🇱 . <br />Alguna vez
+              en el pasado me gustaba copiar códigos de internet e intervenirlos
+              para personalizar páginas web. <br />Todos los proyectos vienen
+              tanto de la imaginación como del desconocimiento de las materias
+              que vamos a ver. Tengo presente que puedo googlear o usar IA para
+              tener un mejor scope, pero voy al ritmo del curso.
+            </p>
+          </div>
+        </div>
+      </aside>
+      <!--columna 2 contenido principal-->
+      <section class="d-flex flex-column col-lg-8 mt-lg-5">
+        <div class="card text-bg-light mb-3 m-3" id="Proyectos">
+          <h4 class="card-header">Proyectos</h4>
+          <div class="card-body">
+            <!--aca empiezan los proyectos-->
+
+            <div class="list-group">
+              <div
+                href="#"
+                class="list-group-item list-group-item-action"
+                aria-current="true"
+              >
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Mascota Virtual</h5>
+                </div>
+                <p class="mb-1">
+                  Basado en las mascotas virtuales de antaño, es simplemente una
+                  página web con interacciones simples. La mascota deberia estar
+                  conectada a un huso horario o tener una especie de reloj
+                  interno, en el cual después de cierto tiempo pide comida o
+                  cariño.<br />
+                  Se podría crear un perfil de usuario, con notificaciones al
+                  correo para cuidar a la mascota.
+                </p>
+                <small
+                  >Si se trabaja 100% tiene potencial de llegar a ser una app de
+                  teléfonos, con widgets para iOS y microtransacciones.</small
+                >
+              </div>
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Integración de Twitch</h5>
+                </div>
+                <p class="mb-1">
+                  Como streamer, he visto que hay gente que hace una mascota que
+                  acompaña el stream. Es básicamente un dibujo que repite los
+                  comentarios del chat de Twitch y además a través de comandos
+                  puedes activar animaciones como por ejemplo el comando de
+                  texto !caricia en chat activaría una animación de una mano con
+                  acariciando la mascota, y esta mano tendría el nombre
+                  (nickname) del usuario encima.
+                </p>
+                <a
+                  href="https://www.etsy.com/listing/1803217832/cat-stream-pet-for-twitch-youtube?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=stream+mascot&ref=sr_gallery-1-5&pro=1&sts=1&dd=1&content_source=5c2d30e3-cdaa-4d76-8131-f65b1befcf82%253ALT115a231c760e7172496fa60d2b19b967fa869bc4&organic_search_click=1&logging_key=5c2d30e3-cdaa-4d76-8131-f65b1befcf82%3ALT115a231c760e7172496fa60d2b19b967fa869bc4"
+                  class="text-body"
+                  >Ejemplo de mascota en Etsy.</a
+                >
+              </div>
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Página Web</h5>
+                </div>
+                <p class="mb-1">
+                  Como soy de Calama, me topo con muchas páginas web locales que
+                  son derechamente horribles. Mal estructuradas, difíciles de
+                  navegar, y todo esto se nota desde antes de tener los
+                  conocimientos que me ha dado este curso (que lleva menos de un
+                  mes), por lo tanto un proyecto podría ser arreglar las páginas
+                  deficientes que tienen los negocios locales. Sin ánimos de
+                  nombrar ninguna en específico, éstas son páginas de PYME que
+                  venden productos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--aca hay una lista de software-->
+        <div class="card text-bg-light mb-3 m-4" id="Tools">
+          <h4 class="card-header">Tools</h4>
+          <div class="card-body">
+            <div
+              class="d-flex flex-row bd-highlight mb-3 justify-content-center"
+            >
+              <div class="list-inline px-3">
+                <img
+                  src="./assets/img/vs-logo-icon.png"
+                  class="img-icon"
+                  alt="vs code icon"
+                />
+              </div>
+              <div class="list-inline px-3">
+                <img
+                  src="./assets/img/bootstrap-logo-icon.png"
+                  class="img-icon"
+                  alt="Bootstrap icon"
+                />
+              </div>
+              <div class="list-inline px-3">
+                <img
+                  src="./assets/img/Adobe_Creative_Cloud_rainbow_icon.png"
+                  class="img-icon"
+                  alt="adobe creaative cloud icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--aca va el contacto-->
+        <div class="card text-bg-light mb-3 m-4" id="Contacto">
+          <h4 class="card-header">Contacto</h4>
+          <div class="card-body justify-content-center">
+            <h5 class="card-title text-center">Tienes un proyecto en mente?</h5>
+            <form method="get" id="form">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="Nombre"
+                />
+                <label for="nombre">Nombre</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Correo"
+                />
+                <label for="email">Correo</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  placeholder="Tu proyecto aqui"
+                  id="inputmensaje"
+                  style="height: 100px"
+                ></textarea>
+                <label for="inputmensaje">Cuéntame de tu proyecto</label>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary" id="submit">
+                  Enviar
+                </button>
+                 <p id="resultado"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--el footer-->
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi" width="30" height="24" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© 2025 Trillo Lillo, Hecho con 💕</span
+          >
+        </div>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
